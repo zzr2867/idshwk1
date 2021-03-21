@@ -1,0 +1,1 @@
+alert tcp any any -> $HOME_NET 8080 (msg:"TEST ALERT"; content:"I am IDS Homework I";flags: A; depth:100; offset 100; sid:20210316 ; rev: ; metadata:created_at 2021_03_16, updated_at 2021_03_16;)
